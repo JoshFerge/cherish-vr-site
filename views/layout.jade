@@ -1,0 +1,58 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous")
+    script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous")
+  body
+    nav(class="navbar navbar-inverse navbar-fixed-top")
+        div(class="container")
+            div(class="navbar-header")
+                ul(class="nav navbar-nav")
+                    li(class="active")
+                        a(href="#") Cherish
+
+
+    .container
+        h1 Virtual College Experiences
+        .row
+            .col-md-4
+                div
+                    img(src="images/cardboard.png" width="130")
+                    p Send cardboard headsets with branding
+            .col-md-4
+                div
+                    span(class="glyphicon glyphicon-hd-video" aria-hidden="true")
+                    p Online virtual expriences<br>tailored to your school
+            .col-md-4
+                div
+                    span(class="glyphicon glyphicon-ok" aria-hidden="true")
+                    p Get them to come and apply
+        h1 Analytics Tools
+        .row
+            .col-md-4
+                div
+                    p Check how many carboards you have
+            .col-md-4
+                div
+                    span(class="glyphicon glyphicon-eye-open" aria-hidden="true")
+                    p See how many prospective students have downloaded app
+            .col-md-4
+                div
+                    p Rating system rates
+        h1 Success Stories
+        .row
+            .col-md-4
+                div
+                    p CU Boulder
+            .col-md-4
+                div
+                    p Front-Range Community College
+            .col-md-4
+                div
+                    p Colorado School of Mines
+
+
+
+    block content
